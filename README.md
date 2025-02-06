@@ -28,20 +28,19 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h3>Step 1: Access your Virtual Machine via Remote Desktop</h3>
 If you're unsure how to connect to your virtual machine, check out my guide here for assistance.
+
 [here](https://github.com/miquelmanaois/virtualmachine)
 
 <h3>Step 2: Install / Enable Internet Information Services (IIS) in Windows</h3>
 
-- At the bottom left, search control panel.
-- Select uninstall a program underneath programs.
-- On the left side, select Turn Windows features on or off
-- Select Internet Information Services, and select OK.
+- Press Windows Key + R
+- Type "optionalfeatures in the box
+
 
 
 <p align="center">
-<img src="https://i.imgur.com/NbQvYeL.png.png" height="80%" width="80%" alt="Azure Free Account"/> 
-</p>
-
+	
+![Image](https://github.com/user-attachments/assets/b9fee68d-96d0-45b4-bae4-e2aef09beb07)
 
 <h3>Step 3:  Download, install, and open Web Platform Installer. Afterwards, download necessary files
 </h3>

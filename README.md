@@ -26,8 +26,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Installation Steps</h2>
 
-
-Step 1: Access your Virtual Machine via Remote Desktop
+<h3>Step 1: Access your Virtual Machine via Remote Desktop</h3>
 If you're unsure how to connect to your virtual machine, check out my guide here for assistance.
 [here](https://github.com/miquelmanaois/virtualmachine)
 

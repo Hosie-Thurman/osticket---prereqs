@@ -42,17 +42,16 @@ If you're unsure how to connect to your virtual machine, check out my guide here
 	
 ![Image](https://github.com/user-attachments/assets/b9fee68d-96d0-45b4-bae4-e2aef09beb07)
 
-<h3>Step 3:  Download, install, and open Web Platform Installer. Afterwards, download necessary files
+<h3>Step 3:  Downloading the osTicket Installation files
 </h3>
 
 - osTicket Installation Files [link](https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6)
-	- Download Web Platform Installer -> Select download anyway -> at the top right select Open file ->
+	- Unzip the file and Drag and drop the folder to your desktop->
 		- You will then follow a prompt to install Web Platform Installer
 			- Open Web Platform Installer
 
-<p align="center">
-<img src="https://i.imgur.com/0On2vKd.png" height="80%" width="80%" alt="Azure Free Account"/> <img src="https://i.imgur.com/V4p94mP.png" height="80%" width="80%" alt="Azure Free Services"/>
-</p>
+![Image](https://github.com/user-attachments/assets/05c613f7-8bf3-42dc-ad3b-5092458f5b1b)
+![Image](https://github.com/user-attachments/assets/695bfb24-2040-4fe9-84d8-a569c6d0fbdf)
 
 - Once Web Platform Installer is open, go to the top right and search MySQL 5.5. 
 - Go to MySQL Windows 5.5 and click add. 

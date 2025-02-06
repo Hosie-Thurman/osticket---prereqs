@@ -124,9 +124,9 @@ If you're unsure how to connect to your virtual machine, check out my guide here
 
  
      
- <p align="center">
-<img src="https://i.imgur.com/GQfPOU8.png" height="80%" width="80%" alt="Azure Free Account"/> <img src="https://i.imgur.com/iCK6vst.png" height="80%" width="80%" alt="Azure Free Services"/>
-</p>
+![Image](https://github.com/user-attachments/assets/e4782faa-1fe2-4016-8a51-b37f1633d03c)
+
+![Image](https://github.com/user-attachments/assets/fe2f0250-daf6-42a1-842f-8027578721c5)
 
 <h3>Step 7:   Refresh the osTicket site in your browser, observe the changes
 </h3>
@@ -146,8 +146,7 @@ If you're unsure how to connect to your virtual machine, check out my guide here
 	- To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
 
 
-<p align="center">
-<img src="https://i.imgur.com/DDTR8CD.png" height="80%" width="80%" alt="Azure Free Account"/>
+![Image](https://github.com/user-attachments/assets/3740c23d-24f6-4d91-bf06-3763fca20485)
 
 <h3>Step 9: Assign Permissions: ost-config.php</h3>
 
@@ -155,15 +154,14 @@ If you're unsure how to connect to your virtual machine, check out my guide here
 - Open Properties -> Security -> Advanced -> Permissions 
 - Select Disable inheritance -> Remove all inherited permissions from this object 
 
-<p align="center">
-<img src="https://i.imgur.com/pcFvK9d.png" height="80%" width="80%" alt="Azure Free Account"/>
+![Image](https://github.com/user-attachments/assets/4fb40538-7e34-4f81-98f2-a7f5ba1e2087)
 
 - Afterwards, Select add -> Select a principal  -> type in "everyone" -> check names-> Select OK
 	- Allow everyone full control (check all boxes) -> Select apply -> OK
 
-<p align="center">
-<img src="https://i.imgur.com/vUlpzTb.png" height="70%" width=70%" alt="Azure Free Account"/> <img src="https://i.imgur.com/WZrk1F7.png" height="80%" width="80%" alt="Azure Free Services"/>
-</p>
+![Image](https://github.com/user-attachments/assets/6fa5ac2e-e6a6-4d12-a30b-d3234bafd257)
+
+![Image](https://github.com/user-attachments/assets/42dba5b5-0909-423b-afa6-26054bc4c4b2)
 
   
 <h3>Step 10: Continue Setting up osTicket in the browser</h3>
@@ -177,13 +175,11 @@ If you're unsure how to connect to your virtual machine, check out my guide here
   - Username: user_admin 
   - Password: Password1 
   
-<p align="center">
-<img src="https://i.imgur.com/1GfpPLs.png" height="80%" width="80%" alt="Azure Free Account"/>
+
+![Image](https://github.com/user-attachments/assets/777a158b-4260-4dd5-b41c-077494dc4f2a)
 
 <h3>Step 11: Download and Install HeidiSQL</h3>
 
-- Head to osTicket Installation Files [link](https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6)
-	- Download and install HeidiSQL
 - Open HeidiSQL -> Select new at the bottom left corner 
    - User: root
    - Password : Password
@@ -203,8 +199,9 @@ If you're unsure how to connect to your virtual machine, check out my guide here
 - MySQL Password: Password1
 - Finally, click Install Now
 
-<p align="center">
-<img src="https://i.imgur.com/Npqj9Us.png" height="80%" width="80%" alt="Azure Free Account"/>
+![Image](https://github.com/user-attachments/assets/68c23ddf-320c-4851-85dd-4c42636e8da3)
+
+![Image](https://github.com/user-attachments/assets/71cc9e9f-ae1b-48d5-accd-9113f5833539)
 
 
 🎉Congratulations! You have sucessfully installed osTicket!🎉

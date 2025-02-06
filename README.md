@@ -27,9 +27,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Installation Steps</h2>
 
 
-<h3>Step 1: Connect to your Virtual Machine with Remote Desktop</h3>
-
-- If you need help connecting to your virtual machine, please see my tutorial [here](https://github.com/miquelmanaois/virtualmachine)
+Step 1: Access your Virtual Machine via Remote Desktop
+If you're unsure how to connect to your virtual machine, check out my guide here for assistance.
+[here](https://github.com/miquelmanaois/virtualmachine)
 
 <h3>Step 2: Install / Enable Internet Information Services (IIS) in Windows</h3>
 

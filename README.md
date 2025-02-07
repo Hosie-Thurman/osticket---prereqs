@@ -130,6 +130,19 @@ Enable: php_opcache.dll
 ![Image](https://github.com/user-attachments/assets/dd28c2a5-952a-4ae8-a970-b621e4809ce9)
 
 
+</h3>Assign Permissions: ost-config.php</h2>
+
+- Disable inheritance -> Remove All
+- To: New Permissions -> Everyone -> All
+
+![Image](https://github.com/user-attachments/assets/7bb7b89a-41f3-428c-ac03-a99c29f2e966)
+
+![Image](https://github.com/user-attachments/assets/04b8667d-a05e-45dc-ad6e-c53d534fb65b)
+
+![Image](https://github.com/user-attachments/assets/c24bc173-0b79-4211-ba00-28bbf5afa3f1)
+
+
+
 
 
 <p align="center">

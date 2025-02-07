@@ -36,11 +36,8 @@ If you're unsure how to connect to your virtual machine, check out my guide here
 - Press Windows Key + R
 - Type "optionalfeatures in the box
 
-
-
-<p align="center">
-	
-![Image](https://github.com/user-attachments/assets/b9fee68d-96d0-45b4-bae4-e2aef09beb07)
+	![Image](https://github.com/user-attachments/assets/b9fee68d-96d0-45b4-bae4-e2aef09beb07)
+![Image](https://github.com/user-attachments/assets/c2ef64f5-0450-4c37-81bd-1cf7af415274)
 
 <h3>Step 3:  Downloading the osTicket Installation files
 </h3>

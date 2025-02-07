@@ -82,15 +82,16 @@ If you're unsure how to connect to your virtual machine, check out my guide here
 
 ![Image](https://github.com/user-attachments/assets/e42fff20-86cf-4fd7-82e1-b8d98992341f)
 
-<h3>Step 6: Open IIS as an Admin</h3>
-
+<h3>Step 6: Installing PHP in IIS </h3>
+- Open IIS as an Admin
 - Register PHP from within IIS (PHP Manager -> C:\PHP\php-cgi.exe)
   
 ![Image](https://github.com/user-attachments/assets/36980173-f715-4781-914a-eba34e1ab857)
 
+![Image](https://github.com/user-attachments/assets/09f497e5-ab7b-4c73-a056-c1548bc1928c)
+
 ![Image](https://github.com/user-attachments/assets/d20d38f1-e6a4-4492-9459-038ef4931678)
 
-![Image](https://github.com/user-attachments/assets/09f497e5-ab7b-4c73-a056-c1548bc1928c)
 
 </h3>Note that some extensions are not enabled</h3>
 - Go back to IIS, sites -> Default -> osTicket

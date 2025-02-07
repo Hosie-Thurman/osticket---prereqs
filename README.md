@@ -160,6 +160,8 @@ Enable: php_opcache.dll
 - Go to sites -> Default -> osTicket
 - On the right, click “Browse *:80”
 
+![Image](https://github.com/user-attachments/assets/026ef34a-f928-42bf-abce-cddb13f14ece)
+
 
 
 

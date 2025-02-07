@@ -11,7 +11,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
-- Internet Information Services (IIS)
+- Internet Information Services (IIS) 
 
 <h2>Operating Systems Used </h2>
 
@@ -50,16 +50,21 @@ If you're unsure how to connect to your virtual machine, check out my guide here
 ![Image](https://github.com/user-attachments/assets/05c613f7-8bf3-42dc-ad3b-5092458f5b1b)
 ![Image](https://github.com/user-attachments/assets/695bfb24-2040-4fe9-84d8-a569c6d0fbdf)
 
-- Once Web Platform Installer is open, go to the top right and search MySQL 5.5. 
-- Go to MySQL Windows 5.5 and click add. 
-- Go to the top right again and search for php.
-	- Sort by "name"
-- Add All simple versions of x86 PHP up until 7.3
-- Select install at the bottom and it will tell you to create a username and password      to finish installation
+<h3>Step 3: PHP Manager for IIS</h3>
 
-<p align="center">
-<img src="https://i.imgur.com/uWAVcRG.png" height="80%" width="80%" alt="Azure Free Account"/> <img src="https://i.imgur.com/MQmZfht.png" height="80%" width="80%" alt="Azure Free Services"/>
-</p>
+- Create the directory C:\PHP
+- From the “osTicket-Installation-Files” folder, unzip PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) into the “C:\PHP” folder
+
+
+![Image](https://github.com/user-attachments/assets/b691aa19-250a-4e23-a7a1-66ea7d414ae5)
+
+![Image](https://github.com/user-attachments/assets/1e0e8276-f27a-4897-ac8e-5e8ab307fdde)
+
+<h3>Step 4: Install VC_redist</h3>
+
+- Create the directory C:\PHP
+- From the “osTicket-Installation-Files” folder, unzip PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) into the “C:\PHP” folder
+
 
 
   - Username: root

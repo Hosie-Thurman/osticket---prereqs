@@ -125,7 +125,7 @@ Enable: php_opcache.dll
 - From: ost-sampleconfig.php
 - To: ost-config.php
 
-![Image](https://github.com/user-attachments/assets/0d713935-7e69-467a-b6f6-2ec4c4427d50)
+![Image](https://github.com/user-attachments/assets/19f365f7-3d42-4dad-b5dc-d2e4c4274eb4)
 
 ![Image](https://github.com/user-attachments/assets/dd28c2a5-952a-4ae8-a970-b621e4809ce9)
 

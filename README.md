@@ -85,7 +85,7 @@ If you're unsure how to connect to your virtual machine, check out my guide here
 <h3>Step 6: Open IIS as an Admin</h3>
 
 - Register PHP from within IIS (PHP Manager -> C:\PHP\php-cgi.exe)
-- Reload IIS (Open IIS, Stop and Start the server)
+  
 ![Image](https://github.com/user-attachments/assets/36980173-f715-4781-914a-eba34e1ab857)
 
 ![Image](https://github.com/user-attachments/assets/d20d38f1-e6a4-4492-9459-038ef4931678)

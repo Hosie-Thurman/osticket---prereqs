@@ -141,6 +141,11 @@ Enable: php_opcache.dll
 
 ![Image](https://github.com/user-attachments/assets/c24bc173-0b79-4211-ba00-28bbf5afa3f1)
 
+![Image](https://github.com/user-attachments/assets/150152c2-2ac6-42d3-8ef0-9ceabca55c99)
+
+![Image](https://github.com/user-attachments/assets/1101baf2-aed3-41dd-a433-384264b8454b)
+
+
 
 
 

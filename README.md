@@ -39,8 +39,7 @@ If you're unsure how to connect to your virtual machine, check out my guide here
 	![Image](https://github.com/user-attachments/assets/b9fee68d-96d0-45b4-bae4-e2aef09beb07)
 ![Image](https://github.com/user-attachments/assets/c2ef64f5-0450-4c37-81bd-1cf7af415274)
 
-<h3>Step 3:  Downloading the osTicket Installation files
-</h3>
+<h3>Step 3:  Downloading the osTicket Installation files</h3>
 
 - osTicket Installation Files [link](https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6)
 	- Unzip the file and Drag and drop the folder to your desktop->
@@ -143,7 +142,7 @@ Enable: php_opcache.dll
 
 ![Image](https://github.com/user-attachments/assets/1101baf2-aed3-41dd-a433-384264b8454b)
 
-<h3>Step 4: Install HeidiSQL</h3>
+<h3>Step 8: Install HeidiSQL</h3>
 
 - Open Heidi SQL
 - Create a new session, root/root
@@ -156,114 +155,16 @@ Enable: php_opcache.dll
 
 ![Image](https://github.com/user-attachments/assets/785afad3-2a90-4783-938d-5bf7bfa093c8)
 
-</h3>Go back to IIS </h2>
+</h3>Go back to IIS</h3>
 
 - Go to sites -> Default -> osTicket
 - On the right, click “Browse *:80”
 
 ![Image](https://github.com/user-attachments/assets/026ef34a-f928-42bf-abce-cddb13f14ece)
 
-
-
-
-  
-
-
-
-
-
-
-<p align="center">
-<img src="https://i.imgur.com/zAPFRmU.png" height="70%" width="70%" alt="Azure Free Account"/> <img src="https://i.imgur.com/DUiyQdt.png" height="70%" width="70%" alt="Azure Free Services"/>
-</p>
-
-
-<h3>Step 4: Install osTicket v1.15.8</h3>
-     
-- Download osTicket (download from within lab files: [link](https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6))
-- Right click on the file and select extract all
-	- Open the new osTicket folder
-		- Copy the “upload” folder INTO c:\inetpub\wwwroot
-		- Rename “upload” to “osTicket”
-
-
-<p align="center">
-<img src="https://i.imgur.com/BpL8IJE.png" height="80%" width="80%" alt="Azure Free Account"/> <img src="https://i.imgur.com/xSJD7yk.png" height="80%" width="80%" alt="Azure Free Services"/>
-</p>
+<h3>Step 9: Setting up osTicket in the browser</h3>
  
-     
-
-<h3>Step 5: Reload IIS (Open IIS, Stop and Start the server)
-</h3>
-
-- Search for Internet Information Services (IIS) and select open
-	- Select restart on right hand side 
-- On the left, select Virtualmachine -> Sites -> Default Website -> osTicket
-- On the right, click “Browse *:80”
-	- This should open osTicket in your web browser
-- Before continuing, head back to and open IIS.
-
-
-<p align="center">
-<img src="https://i.imgur.com/OpBkwwj.png" height="80%" width="80%" alt="Azure Free Account"/> <img src="https://i.imgur.com/XNVSNia.png" height="80%" width="80%" alt="Azure Free Services"/>
-</p>
-
-<h3>Step 6:Note that some extensions are not enabled</h3>
-
-- Go back to IIS, Sites -> Default Web Site -> osTicket
-- Double-click PHP Manager
-- Click “Enable or disable an extension” at the bottom under “PHP Extensions”
-- Right click and enable the following
-    - php_imap.dll (Might be already enabled)
-    - php_intl.dll
-    - Php_opcache.dll
-
- 
-     
-![Image](https://github.com/user-attachments/assets/e4782faa-1fe2-4016-8a51-b37f1633d03c)
-
-![Image](https://github.com/user-attachments/assets/fe2f0250-daf6-42a1-842f-8027578721c5)
-
-<h3>Step 7:   Refresh the osTicket site in your browser, observe the changes
-</h3>
-
-- Intl Extension should now have a green check mark next to it
-
-
-<p align="center">
-<img src="https://i.imgur.com/ByfN2Fd.png" height="80%" width="80%" alt="Azure Free Account"/>
-
-
-
-<h3>Step 8: Rename</h3>
- 
-- Open Windows Explorer and select C:-> inetpub-> wwwroot-> osTicket-> Include and rename.
-	- From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
-	- To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
-
-
-![Image](https://github.com/user-attachments/assets/3740c23d-24f6-4d91-bf06-3763fca20485)
-
-<h3>Step 9: Assign Permissions: ost-config.php</h3>
-
-- Right click ost-config.php, 
-- Open Properties -> Security -> Advanced -> Permissions 
-- Select Disable inheritance -> Remove all inherited permissions from this object 
-
-![Image](https://github.com/user-attachments/assets/4fb40538-7e34-4f81-98f2-a7f5ba1e2087)
-
-- Afterwards, Select add -> Select a principal  -> type in "everyone" -> check names-> Select OK
-	- Allow everyone full control (check all boxes) -> Select apply -> OK
-
-![Image](https://github.com/user-attachments/assets/6fa5ac2e-e6a6-4d12-a30b-d3234bafd257)
-
-![Image](https://github.com/user-attachments/assets/42dba5b5-0909-423b-afa6-26054bc4c4b2)
-
-  
-<h3>Step 10: Continue Setting up osTicket in the browser</h3>
-
-- Go back to browser and click continue
-  - Name: Helpdesk
+ - Name: Helpdesk
   - Email: whichever email you want
   - First Name: your first name
   - Last Name: your last name
@@ -271,59 +172,16 @@ Enable: php_opcache.dll
   - Username: user_admin 
   - Password: Password1 
   
-
-![Image](https://github.com/user-attachments/assets/777a158b-4260-4dd5-b41c-077494dc4f2a)
-
-<h3>Step 11: Download and Install HeidiSQL</h3>
-
-- Open HeidiSQL -> Select new at the bottom left corner 
-   - User: root
-   - Password : Password
-- Select Open
-- On the left side, right click “Unamed” -> “Create New” -> “Database
-- Name it “osTicket” and select OK
-
- <p align="center">
-<img src="https://i.imgur.com/mDBWQ5k.png" height="70%" width="70%" alt="Azure Free Account"/> <img src="https://i.imgur.com/ADJYQyB.png" height="70%" width="70%" alt="Azure Free Services"/>
-</p>
-
-<h3>Step 12:  Go back to the browser and continue setting up osTicket by filling out the fields.</h3>
-
-
-- MySQL Database: osTicket (the one you just created in HeidiSQL)
+- MySQL Database: osTicket
 - MySQL Username: root
-- MySQL Password: Password1
-- Finally, click Install Now
-
-![Image](https://github.com/user-attachments/assets/68c23ddf-320c-4851-85dd-4c42636e8da3)
-
-![Image](https://github.com/user-attachments/assets/71cc9e9f-ae1b-48d5-accd-9113f5833539)
+- MySQL Password: root
+- Click “Install Now!”
+  
+![Image](https://github.com/user-attachments/assets/146e3261-f47f-4da0-9696-10e5e51f2b3c)
 
 
 🎉Congratulations! You have sucessfully installed osTicket!🎉
 
 <p align="center">
 <img src="https://i.imgur.com/F52ypHn.png" height="80%" width="80%" alt="Azure Free Account"/>
-
-<h3>Tips!</h3>
-
-- To create tickets as a user: http://localhost/osTicket/
-- To log in as an Admin or help desk professional: http://localhost/osTicket/scp
-
-<h3>Step 13: Cleanup.</h3>
-
-- Go to C: -> inetpub->wwwroot->osTicket->setup
-    - Delete the contents in the setup folder
-    - Afterwards, delete the setup folder
-- Go to C:-->Inetpub-->wwwroot-->osTicket-->include
-    - Right click on ost-config.php 
-    - Select securities -> Advanced -> Click on everyone -> edit to change permissions
-	- Allow everyone to only have read and execute, then select OK -> Apply -> OK
-	
- <p align="center">
-<img src="https://i.imgur.com/wucT3UN.png" height="70%" width="70%" alt="Azure Free Account"/> <img src="https://i.imgur.com/cPSx6VL.png" height="70%" width="70%" alt="Azure Free Services"/>
-</p>	
-
-
-Click [here](https://github.com/miquelmanaois/osTicket-post-installing) to move on to part 2 of this tutorial!
 

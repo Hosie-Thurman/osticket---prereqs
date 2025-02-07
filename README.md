@@ -109,7 +109,7 @@ Enable: php_opcache.dll
 
 ![Image](https://github.com/user-attachments/assets/7d42c7de-5c4e-4afa-947c-e85dc4ebc96e)
 
-<h2Step7: osTicket Install</h2>
+</h3>Step7: osTicket Install</h2>
 
 - From the “osTicket-Installation-Files” folder, unzip “osTicket-v1.15.8.zip” and copy the “upload” folder into “c:\inetpub\wwwroot”
 - Within “c:\inetpub\wwwroot”, Rename “upload” to “osTicket”
@@ -120,14 +120,15 @@ Enable: php_opcache.dll
 
 ![Image](https://github.com/user-attachments/assets/86a4aec3-9eca-47ae-8b6b-a884b3d5eee4)
 
-Renameing the ost-sampleconfig.php
+</h3>Rename the ost-sampleconfig.php</h2>
 
 - From: ost-sampleconfig.php
 - To: ost-config.php
 
 ![Image](https://github.com/user-attachments/assets/0d713935-7e69-467a-b6f6-2ec4c4427d50)
 
-![Image](https://github.com/user-attachments/assets/1fc8c6d7-c7cf-4ca2-bb33-1f2be4abe33f)
+![Image](https://github.com/user-attachments/assets/dd28c2a5-952a-4ae8-a970-b621e4809ce9)
+
 
 
 

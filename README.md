@@ -82,7 +82,7 @@ If you're unsure how to connect to your virtual machine, check out my guide here
 
 ![Image](https://github.com/user-attachments/assets/e42fff20-86cf-4fd7-82e1-b8d98992341f)
 
-<h3>Step 6: Installing PHP in IIS </h3>
+<h3>Step 6: Installing PHP in IIS</h3>
 
 - Open IIS as an Admin
 - Register PHP from within IIS (PHP Manager -> C:\PHP\php-cgi.exe)
@@ -108,6 +108,27 @@ Enable: php_opcache.dll
 
 
 ![Image](https://github.com/user-attachments/assets/7d42c7de-5c4e-4afa-947c-e85dc4ebc96e)
+
+<h2Step7: osTicket Install</h2>
+
+- From the “osTicket-Installation-Files” folder, unzip “osTicket-v1.15.8.zip” and copy the “upload” folder into “c:\inetpub\wwwroot”
+- Within “c:\inetpub\wwwroot”, Rename “upload” to “osTicket”
+
+![Image](https://github.com/user-attachments/assets/9133bdc3-77a1-4f62-8b3c-cc62edf4cfb4)
+
+![Image](https://github.com/user-attachments/assets/099bf52e-8e05-49bc-961a-d671bf9f6efe)
+
+![Image](https://github.com/user-attachments/assets/86a4aec3-9eca-47ae-8b6b-a884b3d5eee4)
+
+Renameing the ost-sampleconfig.php
+
+- From: ost-sampleconfig.php
+- To: ost-config.php
+
+![Image](https://github.com/user-attachments/assets/0d713935-7e69-467a-b6f6-2ec4c4427d50)
+
+![Image](https://github.com/user-attachments/assets/1fc8c6d7-c7cf-4ca2-bb33-1f2be4abe33f)
+
 
 
 <p align="center">

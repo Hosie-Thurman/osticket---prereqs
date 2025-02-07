@@ -143,6 +143,28 @@ Enable: php_opcache.dll
 
 ![Image](https://github.com/user-attachments/assets/1101baf2-aed3-41dd-a433-384264b8454b)
 
+</h3>Install HeidiSQL</h2>
+
+- Open Heidi SQL
+- Create a new session, root/root
+- Connect to the session
+- Create a database called “osTicket”
+
+![Image](https://github.com/user-attachments/assets/b477bc99-032a-4d40-9656-b7b69bee324e)
+
+![Image](https://github.com/user-attachments/assets/678ddebd-12a2-45d6-bed3-43c1f16d9d06)
+
+![Image](https://github.com/user-attachments/assets/785afad3-2a90-4783-938d-5bf7bfa093c8)
+
+</h3>Go back to IIS </h2>
+- Go to sites -> Default -> osTicket
+- On the right, click “Browse *:80”
+
+
+
+
+  
+
 
 
 

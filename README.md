@@ -109,7 +109,7 @@ Enable: php_opcache.dll
 
 ![Image](https://github.com/user-attachments/assets/7d42c7de-5c4e-4afa-947c-e85dc4ebc96e)
 
-</h3>Step7: osTicket Install</h2>
+</h3>Step7: osTicket Install</h3>
 
 - From the “osTicket-Installation-Files” folder, unzip “osTicket-v1.15.8.zip” and copy the “upload” folder into “c:\inetpub\wwwroot”
 - Within “c:\inetpub\wwwroot”, Rename “upload” to “osTicket”
@@ -120,7 +120,7 @@ Enable: php_opcache.dll
 
 ![Image](https://github.com/user-attachments/assets/86a4aec3-9eca-47ae-8b6b-a884b3d5eee4)
 
-</h3>Rename the ost-sampleconfig.php</h2>
+</h3>Rename the ost-sampleconfig.php</h3>
 
 - From: ost-sampleconfig.php
 - To: ost-config.php
@@ -130,7 +130,7 @@ Enable: php_opcache.dll
 ![Image](https://github.com/user-attachments/assets/dd28c2a5-952a-4ae8-a970-b621e4809ce9)
 
 
-</h3>Assign Permissions: ost-config.php</h2>
+</h3>Assign Permissions: ost-config.php</h3>
 
 - Disable inheritance -> Remove All
 - To: New Permissions -> Everyone -> All
@@ -143,7 +143,7 @@ Enable: php_opcache.dll
 
 ![Image](https://github.com/user-attachments/assets/1101baf2-aed3-41dd-a433-384264b8454b)
 
-</h3>Install HeidiSQL</h2>
+<h3>Step 4: Install HeidiSQL</h3>
 
 - Open Heidi SQL
 - Create a new session, root/root
@@ -157,6 +157,7 @@ Enable: php_opcache.dll
 ![Image](https://github.com/user-attachments/assets/785afad3-2a90-4783-938d-5bf7bfa093c8)
 
 </h3>Go back to IIS </h2>
+
 - Go to sites -> Default -> osTicket
 - On the right, click “Browse *:80”
 

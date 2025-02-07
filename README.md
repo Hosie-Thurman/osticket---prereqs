@@ -95,6 +95,7 @@ If you're unsure how to connect to your virtual machine, check out my guide here
 
 
 </h3>Note that some extensions are not enabled</h3>
+
 - Go back to IIS, sites -> Default -> osTicket
 - Double-click PHP Manager
 - Click “Enable or disable an extension”Enable: php_imap.dll
@@ -104,6 +105,7 @@ Enable: php_opcache.dll
 ![Image](https://github.com/user-attachments/assets/8569dd86-e7ee-4330-90fe-674bf6ff1911)
 
 </h3>Reload IIS (Open IIS, Stop and Start the server)</h3>
+
 
 ![Image](https://github.com/user-attachments/assets/7d42c7de-5c4e-4afa-947c-e85dc4ebc96e)
 

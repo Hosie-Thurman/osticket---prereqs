@@ -83,6 +83,7 @@ If you're unsure how to connect to your virtual machine, check out my guide here
 ![Image](https://github.com/user-attachments/assets/e42fff20-86cf-4fd7-82e1-b8d98992341f)
 
 <h3>Step 6: Installing PHP in IIS </h3>
+
 - Open IIS as an Admin
 - Register PHP from within IIS (PHP Manager -> C:\PHP\php-cgi.exe)
   

@@ -143,8 +143,7 @@ Enable: php_opcache.dll
 <img src="https://i.imgur.com/OpBkwwj.png" height="80%" width="80%" alt="Azure Free Account"/> <img src="https://i.imgur.com/XNVSNia.png" height="80%" width="80%" alt="Azure Free Services"/>
 </p>
 
-<h3>Step 6:  Enable Extensions in IIS: Note that some extensions are not enabled
-</h3>
+<h3>Step 6:Note that some extensions are not enabled</h3>
 
 - Go back to IIS, Sites -> Default Web Site -> osTicket
 - Double-click PHP Manager

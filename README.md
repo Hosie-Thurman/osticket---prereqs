@@ -60,22 +60,50 @@ If you're unsure how to connect to your virtual machine, check out my guide here
 
 ![Image](https://github.com/user-attachments/assets/1e0e8276-f27a-4897-ac8e-5e8ab307fdde)
 
-<h3>Step 4: Install VC_redist</h3>
+<h3>Step 4: Installing additonal files</h3>
 
-- Create the directory C:\PHP
-- From the “osTicket-Installation-Files” folder, unzip PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) into the “C:\PHP” folder
+- From the “osTicket-Installation-Files” folder install the Rewrite Module (rewrite_amd64_en-US.msi)
+- Click Next: Follow the setup instructions.
+- From the “osTicket-Installation-Files” folder, install VC_redist.x86.exe.
+- Click Next: Follow the setup instructions.
 
+![Image](https://github.com/user-attachments/assets/ae12aa51-d996-48f5-a8f9-5dbd841e6eb6)
 
+![Image](https://github.com/user-attachments/assets/df5364f3-94b3-4316-8b4d-f0695842ac34)
 
-  - Username: root
+<h3>Step 5: MySQL Installation</h3>
+ 
+  - From the “osTicket-Installation-Files” folder, install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
+   - Launch Configuration Wizard (after install) 
+    - Standard Configuration 
+   - Username: root
   - Password: Password1
 - Follow the prompt to finish installation
-- You might get a message saying some products have failed to install
-	- Select finish
-- Download and install the following from within the lab files: [link](https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6)
-  - PHP Version 7.3.8
-  - PHP Manager 1.5.0 for IIS 10
-  - Microsoft Visual C++ 2009 Redistributable Package
+
+![Image](https://github.com/user-attachments/assets/e42fff20-86cf-4fd7-82e1-b8d98992341f)
+
+<h3>Step 6: Open IIS as an Admin</h3>
+
+- Register PHP from within IIS (PHP Manager -> C:\PHP\php-cgi.exe)
+- Reload IIS (Open IIS, Stop and Start the server)
+![Image](https://github.com/user-attachments/assets/36980173-f715-4781-914a-eba34e1ab857)
+
+![Image](https://github.com/user-attachments/assets/d20d38f1-e6a4-4492-9459-038ef4931678)
+
+![Image](https://github.com/user-attachments/assets/09f497e5-ab7b-4c73-a056-c1548bc1928c)
+
+</h3>Note that some extensions are not enabled</h3>
+- Go back to IIS, sites -> Default -> osTicket
+- Double-click PHP Manager
+- Click “Enable or disable an extension”Enable: php_imap.dll
+Enable: php_intl.dll
+Enable: php_opcache.dll
+
+![Image](https://github.com/user-attachments/assets/8569dd86-e7ee-4330-90fe-674bf6ff1911)
+
+</h3>Reload IIS (Open IIS, Stop and Start the server)</h3>
+
+![Image](https://github.com/user-attachments/assets/7d42c7de-5c4e-4afa-947c-e85dc4ebc96e)
 
 
 <p align="center">

@@ -21,7 +21,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 - Microsoft Azure
 - Virtual Machine
-- osTicket Installation Files [link](https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6)
+- osTicket Installation Files [link](https://drive.usercontent.google.com/download?id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD&export=download&authuser=0)
 
 
 <h2>Installation Steps</h2>
@@ -36,15 +36,18 @@ If you're unsure how to connect to your virtual machine, check out my guide here
 - Press Windows Key + R
 - Type "optionalfeatures in the box
 
-	![Image](https://github.com/user-attachments/assets/b9fee68d-96d0-45b4-bae4-e2aef09beb07)
-![Image](https://github.com/user-attachments/assets/c2ef64f5-0450-4c37-81bd-1cf7af415274)
+![Image](https://github.com/user-attachments/assets/5417d0cc-0aaf-4421-8a82-55077c1112df)
+
+<h3>Click the box to left of Internet Information Services and check the boxes shown in the screensho</h3>
+
+![Image](https://github.com/user-attachments/assets/47be78e6-c504-4a89-8bec-68d1241186d1)
 
 <h3>Step 3:  Downloading the osTicket Installation files</h3>
 
 - osTicket Installation Files [link](https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6)
-	- Unzip the file and Drag and drop the folder to your desktop->
-		- You will then follow a prompt to install Web Platform Installer
-			- Open Web Platform Installer
+- Unzip the file and Drag and drop the folder to your desktop->
+- You will then follow a prompt to install Web Platform Installer
+- Open Web Platform Installer
 
 ![Image](https://github.com/user-attachments/assets/05c613f7-8bf3-42dc-ad3b-5092458f5b1b)
 ![Image](https://github.com/user-attachments/assets/695bfb24-2040-4fe9-84d8-a569c6d0fbdf)
@@ -72,11 +75,11 @@ If you're unsure how to connect to your virtual machine, check out my guide here
 
 <h3>Step 5: MySQL Installation</h3>
  
-  - From the “osTicket-Installation-Files” folder, install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
-   - Launch Configuration Wizard (after install) 
-    - Standard Configuration 
-   - Username: root
-  - Password: Password1
+- From the “osTicket-Installation-Files” folder, install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
+- Launch Configuration Wizard (after install)
+- Standard Configuration 
+- Username: root
+- Password: Password1
 - Follow the prompt to finish installation
 
 ![Image](https://github.com/user-attachments/assets/e42fff20-86cf-4fd7-82e1-b8d98992341f)
@@ -93,7 +96,7 @@ If you're unsure how to connect to your virtual machine, check out my guide here
 ![Image](https://github.com/user-attachments/assets/d20d38f1-e6a4-4492-9459-038ef4931678)
 
 
-</h3>Note that some extensions are not enabled</h3>
+<h3>Note that some extensions are not enabled</h3>
 
 - Go back to IIS, sites -> Default -> osTicket
 - Double-click PHP Manager
@@ -103,12 +106,12 @@ Enable: php_opcache.dll
 
 ![Image](https://github.com/user-attachments/assets/8569dd86-e7ee-4330-90fe-674bf6ff1911)
 
-</h3>Reload IIS (Open IIS, Stop and Start the server)</h3>
+<h3>Reload IIS (Open IIS, Stop and Start the server)</h3>
 
 
 ![Image](https://github.com/user-attachments/assets/7d42c7de-5c4e-4afa-947c-e85dc4ebc96e)
 
-</h3>Step7: osTicket Install</h3>
+<h3>Step 7: osTicket Install</h3>
 
 - From the “osTicket-Installation-Files” folder, unzip “osTicket-v1.15.8.zip” and copy the “upload” folder into “c:\inetpub\wwwroot”
 - Within “c:\inetpub\wwwroot”, Rename “upload” to “osTicket”
@@ -119,7 +122,8 @@ Enable: php_opcache.dll
 
 ![Image](https://github.com/user-attachments/assets/86a4aec3-9eca-47ae-8b6b-a884b3d5eee4)
 
-</h3>Rename the ost-sampleconfig.php</h3>
+
+<h3>Rename the ost-sampleconfig.php</h3>
 
 - From: ost-sampleconfig.php
 - To: ost-config.php
@@ -129,7 +133,7 @@ Enable: php_opcache.dll
 ![Image](https://github.com/user-attachments/assets/dd28c2a5-952a-4ae8-a970-b621e4809ce9)
 
 
-</h3>Assign Permissions: ost-config.php</h3>
+<h3>Assign Permissions: ost-config.php</h3>
 
 - Disable inheritance -> Remove All
 - To: New Permissions -> Everyone -> All
@@ -155,7 +159,9 @@ Enable: php_opcache.dll
 
 ![Image](https://github.com/user-attachments/assets/785afad3-2a90-4783-938d-5bf7bfa093c8)
 
-</h3>Go back to IIS</h3>
+
+<h3>Go back to IIS</h3>
+
 
 - Go to sites -> Default -> osTicket
 - On the right, click “Browse *:80”
